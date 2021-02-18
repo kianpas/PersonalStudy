@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Grids</title>
+    <style>
+      .wrapper {
+        display: grid;
+        grid-template-columns: 70% 30%;
+        /*         
+        grid-column-gap: 1em;
+        grid-row-gap: 1em; */
+
+        grid-gap: 1em;
+      }
+      .wrapper > div {
+        background: #eee;
+        padding: 1em;
+      }
+      .wrapper > div:nth-child(odd) {
+        background: #ddd;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima commodi
+        expedita odio tenetur error tempora libero sapiente distinctio
+        voluptatem obcaecati maiores nihil porro rerum, ipsum recusandae,
+        officia nesciunt fuga perferendis tempore hic molestias aliquid ipsa
+        modi? Facere, consequuntur dicta temporibus, minima maiores fugit
+        recusandae et molestiae laudantium similique ullam consequatur ipsa
+        impedit quaerat fuga numquam obcaecati dolor. Possimus ut nobis,
+        pariatur ipsam unde, rerum accusantium sapiente repellendus explicabo
+        deleniti odio dolorum libero perspiciatis similique quaerat nihil
+        doloremque. Asperiores, at et?
+      </div>
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+        accusantium, totam aspernatur commodi laudantium fugit facilis possimus
+        quidem magnam nisi, debitis amet illum impedit repellendus voluptas
+        ducimus dolores laborum dignissimos!
+      </div>
+
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima commodi
+        expedita odio tenetur error tempora libero sapiente distinctio
+        voluptatem obcaecati maiores nihil porro rerum, ipsum recusandae,
+        officia nesciunt fuga perferendis tempore hic molestias aliquid ipsa
+        modi? Facere, consequuntur dicta temporibus, minima maiores fugit
+        recusandae et molestiae laudantium similique ullam consequatur ipsa
+        impedit quaerat fuga numquam obcaecati dolor. Possimus ut nobis,
+        pariatur ipsam unde, rerum accusantium sapiente repellendus explicabo
+        deleniti odio dolorum libero perspiciatis similique quaerat nihil
+        doloremque. Asperiores, at et?
+      </div>
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+        accusantium, totam aspernatur commodi laudantium fugit facilis possimus
+        quidem magnam nisi, debitis amet illum impedit repellendus voluptas
+        ducimus dolores laborum dignissimos!
+      </div>
+    </div>
+  </body>
+</html>
