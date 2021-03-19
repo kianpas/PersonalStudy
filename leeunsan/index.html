@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hompage</title>
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"
+      integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30="
+      crossorigin="anonymous"
+    ></script>
+
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/owl.carousel.css" />
+    <link rel="stylesheet" href="./css/owl.theme.default.css" />
+    <script src="./js/owl.carousel.js"></script>
+    <script src="./js/owl.autoplay.js"></script>
+    <script src="./js/vegas.js"></script>
+    <link rel="stylesheet" href="./css/vegas.css" />
+    <link rel="stylesheet" href="./css/style.css" type="text/css" />
+  </head>
+  <body>
+    <!--메인-->
+    <header>
+      <img src="./images/logo2.png" alt="logo" />
+      <nav>
+        <ul id="menuList">
+          <li><a href="#home">HOME</a></li>
+          <li><a href="#introduce">ABOUT</a></li>
+          <li><a href="#project">PROJECT</a></li>
+          <li><a href="#roadmap">ROAD MAP</a></li>
+          <li><a href="#hobby">MUSIC</a></li>
+          <li><a href="#signin">SIGN IN</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+        <i class="fas fa-bars fa-2x" id="menuIcon" onclick="togglemenu()"></i>
+        <div class="dimm"></div>
+      </nav>
+    </header>
+    <div class="wrapper" id="home">
+      <section class="home">
+        <article>
+          <h1><span>Hello!</span></h1>
+          <h2><span>I'm Lee Un San</span></h2>
+          <p>안녕하세요! 제 홈페이지에 오신걸 환영합니다!</p>
+        </article>
+      </section>
+    </div>
+    <!--소개-->
+    <div class="wrapper" id="introduce">
+      <section class="introduce">
+        <div class="pic">
+          <i class="fas fa-user-astronaut fa-10x"></i>
+        </div>
+        <article>
+          <div class="about">
+            <h1>ABOUT ME</h1>
+            <h2>Wannabe Developer</h2>
+            <p>
+              현재 교육받고 있는 개발자 지망생 이운산입니다. <br />어렸을 때
+              작은 상을 받은 계기로 개발자의 꿈을 꾸었으나 꿈은 꿈, 현실은
+              현실이라는 생각에 개발의 꿈을 한켠에 미루어 두었습니다. 하지만
+              어느 순간 더 이상 미루면 평생 후회할 것이라는 생각에 2020년
+              12월부터 본격적인 교육을 받기 시작했습니다. <br /><br />물론 코드,
+              개발의 길은 쉬운 일이 아니었습니다. 그러나 항상 무언가를
+              만들어내는 과정과 결과를 창출하는데 큰 흥미를 느끼는 저에게 있어서
+              코딩은 결과를 만들어내기 위한 하나의 즐거운 모험이라고 생각합니다.
+              이러한 마음을 언제나 가지고, 항상 긍정적인 자세로 업무에 임할 수
+              있는 개발자가 되고자 합니다.
+            </p>
+          </div>
+          <div class="progress">
+            <h3>Current Progress</h3>
+          </div>
+          <div class="icon-panel">
+            <div class="icon">
+              <i class="fab fa-java fa-1x"></i><span>JAVA</span>
+            </div>
+            <div class="icon">
+              <i class="fas fa-database fa-1x"></i><span>ORACLE</span>
+            </div>
+            <div class="icon">
+              <i class="fab fa-html5 fa-1x"></i><span>HTML5</span>
+            </div>
+            <div class="icon">
+              <i class="fab fa-css3-alt fa-1x"></i><span>CSS3</span>
+            </div>
+            <div class="icon">
+              <i class="fab fa-js-square fa-1x"></i><span>JS</span>
+            </div>
+          </div>
+
+          <p class="github">
+            <i class="fab fa-github fa-1x"></i>
+            <span class="link"
+              ><a href="https://github.com/kianpas">GO TO GITHUB</a></span
+            >
+          </p>
+        </article>
+      </section>
+    </div>
+    <div class="wrapper" id="project">
+      <div>
+        <h1>PROJECT</h1>
+      </div>
+      <div class="owl-carousel owl-theme" id="owl-carousel">
+        <div class="item">
+          <img src="./images/javaw_eTXRMbdRWe.jpg" />
+        </div>
+        <div class="item">
+          <img src="./images/msedge_lG0uL0itSb.jpg" />
+        </div>
+        <div class="item">
+          <img src="./images/msedge_43YmxXMVk2.jpg" />
+        </div>
+      </div>
+    </div>
+    <!--로드맵-->
+    <div class="wrapper" id="roadmap">
+      <section class="roadmaptitle">
+        <h1>ROAD MAP</h1>
+      </section>
+      <section class="roadmap">
+        <article class="card">
+          <img src="./images/photo-1.jpg" alt="" />
+          <div class="info">
+            <h1>Junior</h1>
+            <p>
+              신입 개발자로서 항상 공부하여 트렌드를 읽고 적극적으로 받아들이고
+              신입에 어울리는 열정을 보여주고자 합니다. 또한 지금까지 배웠던
+              자바, SQL, 자바스크립트 등의 기본기를 제대로 다지고 가는 과정이
+              필요하다고 생각합니다.
+            </p>
+            <!-- <a href="#" class="btn">Read</a> -->
+          </div>
+        </article>
+        <article class="card">
+          <img src="./images/photo-2.jpg" alt="" />
+          <div class="info">
+            <h1>Mid-Level</h1>
+            <p>
+              신뢰감을 주는 중견 개발자로서 성장하여 회사에는 업무를 믿고 맡길
+              수 있는, 동료에게는 같이 일하고 싶은 개발자로 성장하고 싶습니다.
+              또한 기존의 익숙했던 언어, 도구를 넘어 새로운 것도 나의 것으로
+              만들고 자신만의 프로그램을 만들 수 있는 단계에 오르고 싶습니다.
+            </p>
+            <!-- <a href="#" class="btn">Read</a> -->
+          </div>
+        </article>
+        <article class="card">
+          <img src="./images/photo-3.jpg" alt="" />
+          <div class="info">
+            <h1>Senior</h1>
+            <p>
+              프로젝트를 이끌고 다른 직원에게 도움을 줄 수 있는 수준으로
+              성장하고 싶습니다. 시니어에게 가장 중요한 것은 실력도 실력이지만
+              결과를 위해 협력을 만들어낼 수 있는 커뮤니케이션 능력이라고
+              생각합니다.
+            </p>
+            <!-- <a href="#" class="btn">Read</a> -->
+          </div>
+        </article>
+      </section>
+    </div>
+    <!-- 취미 -->
+    <div class="wrapper" id="hobby">
+      <section class="hobbytitle">
+        <h1>MUSIC</h1>
+      </section>
+      <section class="cover-container">
+        <article class="funk"><h2>FUNK</h2></article>
+        <article class="rock"><h2>ROCK</h2></article>
+        <article class="soul"><h2>SOUL</h2></article>
+      </section>
+      <section class="hobbytxt">
+        <h2>Oldies But Goodies</h2>
+        <p>오래되고 단순한 음악. 하지만 그러기에 신나는 음악.</p>
+      </section>
+    </div>
+    <!-- 회원 가입 -->
+    <div class="wrapper" id="signin">
+      <section class="col-signin">
+        <article class="signin">
+          <h1>SIGN IN</h1>
+          <form action="javascript:signIn()" name="signInFrm">
+            <input type="text" placeholder="ID" id="id" />
+            <input type="password" placeholder="PASSWORD" id="password" />
+            <div class="btn"><button>SIGN IN</button></div>
+          </form>
+        </article>
+      </section>
+      <section class="col-signup">
+        <article class="signup">
+          <h1>SIGN UP</h1>
+          <form action="javascript:signUpInfo()" name="signUpFrm">
+            <input type="text" placeholder="ID(2~14자 길이)" id="idUp" />
+            <input
+              type="password"
+              placeholder="PASSWORD(특수문자포함 8~15자리 길이)"
+              id="pwdUp"
+            />
+            <input type="email" placeholder="EMAIL" id="email" />
+            <div class="btn"><button>SIGN UP</button></div>
+          </form>
+          <!-- <p>
+            이미 회원인가요?
+            <button class="in-btn">SIGN IN</button>
+          </p> -->
+        </article>
+      </section>
+      <p>계정이 없으신가요?</p>
+      <button class="up-btn">SIGN UP</button>
+    </div>
+    <!--footer-->
+    <div class="wrapper" id="contact">
+      <section class="contact">
+        <article>
+          <div class="contact-container">
+            <i class="far fa-envelope-open"></i>
+            <span>EMAIL : kianpas@gmail.com</span>
+          </div>
+          <div class="contact-container">
+            <i class="far fa-mobile"></i>
+            <span>PHONE : +82 010-0000-0000</span>
+          </div>
+        </article>
+      </section>
+    </div>
+    <footer>
+      <!-- <span>Copyright @ 2021 Design & Developed by LeeUnSan</span> -->
+      <div class="footer-link">
+        <ul>
+          <p>찾아보기</p>
+          <li><a href="#home">HOME</a></li>
+          <li><a href="#introduce">ABOUT</a></li>
+          <li><a href="#travel">TRAVEL</a></li>
+          <li><a href="#roadmap">ROAD MAP</a></li>
+          <li><a href="#signin">SIGN IN</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+      </div>
+    </footer>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
